@@ -20,8 +20,8 @@ A Model Context Protocol (MCP) server that lets you manipulate Excel files witho
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/haris-musa/excel-mcp-server.git
-cd excel-mcp-server
+git clone https://github.com/Aifornorms/ExcelMCP.git
+cd ExcelMCP
 ```
 
 2. Install using uv:
