@@ -1,5 +1,5 @@
 import asyncio
-from .new_server import run_server
+from .server import run_server
 
 
 def main():
