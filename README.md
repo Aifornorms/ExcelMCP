@@ -26,6 +26,9 @@ cd ExcelMCP
 
 2. Install using uv:
 ```bash
+python -m venv .venv
+.venv/scripts/activate
+pip install uv
 uv pip install -e .
 ```
 
@@ -57,7 +60,7 @@ $env:FASTMCP_PORT = "8080"; uv run excel-mcp-server
     "excel": {
       "url": "http://localhost:8000/sse",
       "env": {
-        "EXCEL_FILES_PATH": "/path/to/excel/files"
+        "EXCEL_FILES_PATH": "Excel_files"
       }
     }
   }
