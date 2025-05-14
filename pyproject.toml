@@ -39,4 +39,6 @@ packages = ["src/excel_mcp"]
 packages = ["src/excel_mcp"]
 
 [[tool.uv.index]]
-
+name = "aliyun"
+url = "http://mirrors.aliyun.com/pypi/simple/"
+priority = "primary"
